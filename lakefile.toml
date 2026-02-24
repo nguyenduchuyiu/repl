@@ -12,3 +12,8 @@ supportInterpreter = true
 [[lean_exe]]
 name = "test"
 root = "Test"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.29.0-rc1"
