@@ -17,3 +17,8 @@ root = "Test"
 name = "mathlib"
 scope = "leanprover-community"
 rev = "v4.29.0-rc1"
+
+[[lean_exe]]
+name = "dump_ast"
+root = "dump_ast"
+supportInterpreter = true
